@@ -1,0 +1,7 @@
+ Write a PHP script to test whether a number is greater than 30, 20 or 10 using ternary operator.
+Ans :
+<?php
+  $number = 25;
+  $result = $number > 30 ? 'greater than 30' : ($number > 20 ? 'greater than 20' : ($number > 10 ? 'greater than 10' : 'less than or equal to 10'));
+  echo $result;
+?>

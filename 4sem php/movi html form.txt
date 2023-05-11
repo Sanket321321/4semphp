@@ -1,0 +1,17 @@
+html>
+
+<body>
+
+<form action="movie php" method="get">
+
+<h3>Enter Actor Name: <input type text name=nm> <<13>
+
+<input type-radio name a value->Display Movie Name<br><br>
+
+<h3>Enter movie no <input type-text name=m_no></h3> <h3>Enter movie name <input type-text name=m_nm></h3> <h3>Enter release year <input type text name=r_yr> <h3>Enter actor no <mput type text name a no> </h3> <h3>Enter actor name <input type-text name-a_nm> </h3> <input type radio name a value 2 Insert New movie info<br><br>
+
+<input type submit value-OK> </form>
+
+<div id="place"></div> <body>
+
+</html>

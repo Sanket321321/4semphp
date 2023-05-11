@@ -1,0 +1,4 @@
+Write a PHP Script to get the PHP Version and Configuration information.
+Ans :<?php
+     phpinfo();
+    ?>

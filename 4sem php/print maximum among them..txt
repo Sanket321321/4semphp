@@ -1,0 +1,22 @@
+Write a PHP script to declare three variables and print maximum among them.
+Ans :
+<?php
+
+// Declare the variables
+$a = 10;
+$b = 20;
+$c = 15;
+
+// Find the maximum value using control statements
+if ($a > $b && $a > $c) {
+  $max = $a;
+} elseif ($b > $a && $b > $c) {
+  $max = $b;
+} else {
+  $max = $c;
+}
+
+// Output the maximum value
+echo "The maximum value is: " . $max;
+
+?>

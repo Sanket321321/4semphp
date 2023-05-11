@@ -1,0 +1,16 @@
+Write A PHP Script to display Timetable of Your Class.
+Ans :<?php
+
+$sub1 = "DSA in CPP";
+$sub2 = "Basic Java";
+
+echo "<table border='1'>";
+echo "<tr><th>Time</th><th>Class Schedule</th></tr>";
+echo "<tr><td>8:00 - 9:00</td><td>$sub1</td></tr>";
+echo "<tr><td>9:00 - 10:00</td><td>$sub2</td></tr>";
+echo "<tr><td>10:00 - 11:00</td><td>$sub1</td></tr>";
+echo "<tr><td>11:00 - 12:00</td><td>$sub2</td></tr>";
+echo "<tr><td>12:00 - 1:00</td><td>$sub1</td></tr>";
+echo "</table>";
+
+?>

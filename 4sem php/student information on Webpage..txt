@@ -1,0 +1,7 @@
+Write a PHP Script to display student information on Webpage.
+Ans :<?php
+    $name = "John Smith";
+	$age = 20;
+	$branch = "Computer Science";
+	echo "Name : $name\nAge : $age\nBranchÂ :Â $branch";
+    ?>

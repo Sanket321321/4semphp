@@ -1,0 +1,15 @@
+<html>
+<head>
+<titel reverse  a string</titel>
+</head>
+<body>
+<form method="post" action="ak.php">
+<lable for ="number">
+enetr a non-negative integer</lable><br>
+<input type="number" name="number"requred>
+<br>
+<button type="submit">calcute factorial</button>
+<br>
+</form>
+</body>
+</html>

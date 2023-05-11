@@ -1,0 +1,10 @@
+Design a HTML form to accept a string. Write a php function to reverse a string.
+*/
+<?php
+   function stringrev(){
+     $str = readline('Enter the string:');
+     $rev = strrev($str);
+     echo "reverses string is:".$rev;
+   }
+stringrev(); 
+?>

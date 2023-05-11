@@ -1,0 +1,19 @@
+<html>
+<head>
+<titel reverse  a string</titel>
+</head>
+<body>
+<form method="post" action="email.php">
+<lable for ="name">
+enetr a non-negative integer</lable><br>
+<input type="text" name="nm"requred>
+<br>
+<lable for ="name">
+enetr a non-negative integer</lable><br>
+<input type="text" name="eid"requred>
+<br>
+<button type="submit">check</button>
+<br>
+</form>
+</body>
+</html>

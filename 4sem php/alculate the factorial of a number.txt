@@ -1,0 +1,17 @@
+Write a PHP script to accept the number from user and Write a php function to 
+calculate the factorial of a number (a non-negative integer). The function accepts 
+the number as an argument.
+*/
+
+<?php
+  function Factorial ($x){
+    $fact = 1;
+     for ($i=1;$i<=$x;$i++){
+       $fact = $fact * $i;
+     }
+    echo "Factorial of the $x is $fact";
+  }
+$num =readline("Enter the number:");
+Factorial ($num);
+
+?>

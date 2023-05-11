@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>PHP Test</title>
+  </head>
+  <body>
+    <?php 
+
+  $num = 353;
+  $n = $num;
+  $rev = 0;
+   while($num > 0)
+   {
+     $rem=$num%10;
+     $rev=$rev * 10 + $rem; 
+     $num = $num / 10;
+   } 
+if($n == $rev)
+{
+  echo "$n is amongst number";
+}
+else {
+  echo "$n number is not amongst number";
+}
+
+
+    ?> 
+
+    <!--
+    This script places a badge on your repl's full-browser view back to your repl's cover
+    page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+    teal, blue, blurple, magenta, pink!
+    -->
+    <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+  </body>
+</html>

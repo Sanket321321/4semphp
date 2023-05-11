@@ -1,0 +1,37 @@
+Sphp
+
+Fem
+
+Sr = S_GET[''] ;
+
+Scon= mysql_connect("localhost","root" Sd=mysql_select_db("sybeasci".Scon):
+
+if(Sr == 1)
+
+I
+
+Sq= mysql_query("select m name from movie.actor.movie_actor
+
+where movie.m_no movie actor.m_no and actora no movie actora no and
+
+Sactor name= $_GET[''];
+
+a_name=Sactor_name"); echo "<br>Movie Name<>";
+
+while(Srow-mysql_fetch_array($q))
+
+echo Srow[0]."<br>";
+
+else if(Sr-2)
+
+Sin_no= $_GET['m_no');
+
+Sm_name=S_GET['_']; Sr yr = S_GET['r yr];
+
+Sa no S_GET['a no']; Sa_name=S_GET['_');
+
+5q= mysql_query("insert into movie values(Sm_no,'Sm_name',Sr_3T)"); Sql = mysql_query("insert into actor values(Sa_no."Sa_name')");
+
+Wind (CTL)
+
+INC

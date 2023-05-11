@@ -1,0 +1,30 @@
+ Write a PHP script to display source code of a webpage.
+Ans :  
+
+example.html source code
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example HTML Page</title>
+</head>
+<body>
+	<header>
+		<h1>Welcome to my website</h1>
+	</header>
+	<main>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+    </main>
+</body>
+</html>
+
+
+<?php
+
+// Define the filename of the HTML page to display
+$filename = "example.html";
+
+// Display the source code of the HTML page
+show_source($filename);
+
+?>

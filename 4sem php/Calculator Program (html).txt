@@ -1,0 +1,19 @@
+Calculator Program 
+
+<html>
+<body>
+<FORM ACTION="<?php $_SERVER['PHP_SELF']; ?>" method="POST">
+ Enter first no : <input type=text name=no1> <br> <br> <br> 
+ Enter second no : <input type=text name=no2>  <br>   <br> 
+ Select Operation which u have to perform :<br>    <br> <br>
+  <br>  <select name=cal>
+  <option value="1">Addition</option>
+  <option value="2">Substraction</option>
+  <option value="3">Multiplication</option>
+  <option value="4">Division</option>      
+  </select>          <br><br><br> 
+ <input type=submit name=submit value=Calculate>  <br>
+ 
+</form>        
+</body>
+</html>

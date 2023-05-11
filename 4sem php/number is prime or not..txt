@@ -1,0 +1,24 @@
+Write a PHP script to check whether accepted number is prime or not.
+Ans :
+<?php
+
+// Define the number to check
+$num = 17;
+
+// Check if the number is prime
+$isPrime = true;
+for ($i = 2; $i <= sqrt($num); $i++) {
+  if ($num % $i == 0) {
+    $isPrime = false;
+    break;
+  }
+}
+
+// Output the result
+if ($isPrime) {
+  echo "$num is a prime number";
+} else {
+  echo "$num is not a prime number";
+}
+
+?>
